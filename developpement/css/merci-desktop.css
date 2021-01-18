@@ -1,0 +1,42 @@
+@media only screen and (min-width : 1224px){
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    hr {
+        width: 60%;
+    }
+
+    h4 {
+        font-weight: 200;
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        width: 23%;
+    }
+
+    .btn a {
+        font-size: 1rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+    }
+
+    footer hr {
+        width: 25%;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+        font-weight: 200;
+    }
+
+}    

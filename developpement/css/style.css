@@ -1,0 +1,85 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/background_mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+main {
+    height: 100%;
+}
+
+/* TYPOGRAPHIE */
+
+h1 {
+    color: #4e4e4e;
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 6rem;
+    color: #204568;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #204568;
+    text-align: center;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    width: 90%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* FOMULAIRE ET BOUTON */
+
+#email {
+    border-radius: 0.2rem;
+    border: solid 2px #00000027;
+    box-shadow: inset 4px 4px #0000000f;
+    background-color: #f4f4f4;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.btn {
+    border: solid 1px #face00;
+    border-radius: 0.2rem;
+    background: linear-gradient(#fce300, #face00);
+    box-shadow: 2px 8px 12px 0px #0000000f;
+    width: 90%;
+    padding: 9px;
+}
+
+.btn a, #btn-inscription {
+    color: #204568;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,94 @@
+@media only screen and (min-width : 1224px){
+
+    header, footer img{
+        display: none;
+    }
+
+    main {
+        height: 80%;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #175085;
+    }
+
+    .text_desktop {
+        font-size: 1.5rem;
+        color: #175085;
+    }
+
+    .text_dispo {
+        position: absolute;
+        top: 37%;
+        left: 52%;
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        text-align: right;
+        margin-bottom: 0;
+    }
+
+    #mobile {
+        position: absolute;
+        width: 40%;
+        top: 25%;
+        left: 6%;
+    }
+
+    .inscription {
+        background-color: #175085;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 62%;
+        padding-right: 4rem;
+        margin-top: 8rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        align-content: center;
+    }
+
+    #email {
+        padding: 9px 20px;
+        width: 90%;
+        text-align: left;
+        margin-right: 1rem;
+    }
+
+    .btn {
+        width: 40%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+    }
+
+    footer hr {
+        width: 25%;
+    }
+
+    footer .text_desktop {
+        font-size: 0.7rem;
+        font-weight: 200;
+        color: #4f4f4f;
+    }
+
+}
